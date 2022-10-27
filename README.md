@@ -138,6 +138,8 @@ index e69de29..3ed0e1b 100644
 +Hi!! I'm Bob. I'm new here.
 ```
 
+* exit git diff: press q
+
 Go ahead and `git add Bob.txt` like you've done before. As we know, this moves your changes to the _Staging Area_. 
 
 I want to see the changes we just _staged_, so let's show the `git diff` again! You'll notice that this time the output is empty. This happens because `git diff` operates on the changes in your _Working Directory_ only. 
