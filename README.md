@@ -103,6 +103,8 @@ The collected changes that you _commit_ are some meaningful chunk of work, so wh
 
 You can also add your _commit message_ right there in the command line if you call `git commit` like this: `git commit -m "Add Bob"`. But because you want to write [good commit messages](https://chris.beams.io/posts/git-commit/) you really should take your time and use the editor.
 
+* close text editor: Ctrl + c then :wq
+
 Now your changes are in your local repository, which is a good place for them to be as long as no one else needs them or you're not yet ready to share them. 
 
 In order to share your commits with the _Remote Repository_ you need to `push` them. 
@@ -110,6 +112,8 @@ In order to share your commits with the _Remote Repository_ you need to `push` t
 ![Pushing to the local repo](img/push.png)
 
 Once you run `git push` the changes will be sent to the _Remote Repository_. In the diagram below you see the state after your `push`.
+
+* use token as password: https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls, https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ![State of all components after pushing changes](img/after_push.png)
 
